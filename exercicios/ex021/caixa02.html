@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+    
+    header{
+        background-color: #3D85CC;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    header > h1{
+        margin: 0;
+    }
+
+    nav{
+        background-color: #003B75;
+        padding: 10px;
+        box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.288);
+    }
+
+    nav > a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    nav > a:hover{
+        text-decoration: underline;
+    }
+
+    main{
+        background-color: white;
+    }
+
+    article{
+        background-color: lightgray;
+        padding: 10px;
+    }
+
+    article > aside{
+        background-color: rgb(121, 121, 121);
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        padding: 1px;
+        text-align: center;
+    }
+
+    div#bola{
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        margin: 10px;
+        border-radius: 50%;
+    }
+</style>
+<body>
+    <header>
+        <h1>Site Modelo</h1>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Serviços</a>
+            <a href="#">Planos</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, deserunt eaque commodi quaerat, est veniam itaque rerum laborum quo impedit porro mollitia, cupiditate accusantium quos. Debitis qui libero atque a!</p>
+                <aside>
+                    <p>Escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Luan</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

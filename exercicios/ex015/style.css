@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*Tudo que começa com @, significa que é uma regra. Neste caso, não é obrigatório, mas poderá ser visto em outros documentos.*/
+
+body{
+    background-color: lightgoldenrodyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    color: green;
+    background-color: goldenrod;
+}
+
+h2{
+    color: red;
+}
+
+p{
+    text-align: justify;
+}
